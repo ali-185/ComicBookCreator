@@ -22,7 +22,7 @@
   */
 -->
 
-<jnlp spec="1.0+" href="ComicBookCreator.jnlp">
+<jnlp spec="1.0+" codebase="https://github.com/ali-185/ComicBookCreator/releases/download/v0.1/" href="APPLICATION.JNLP">
     <information>
         <title>Comic Book Creator</title>
         <vendor>Alastair Crowe</vendor>
@@ -30,12 +30,11 @@
     <resources>
         <!-- Application Resources -->
         <j2se version="1.7+"
-              href="http://java.sun.com/products/autodl/j2se"/>
+              href="http://java.sun.com/products/autodl/j2se" />
         <jar href="ComicBookCreator.jar" main="true" />
-        <jar href="javaws.jar" />
     </resources>
     <application-desc
-         name="Comic Book Creator Appl"
+         name="Comic Book Creator"
          main-class="comicBookGUI.ComicBookApp">
      </application-desc>
      <update check="always" policy="always" />
